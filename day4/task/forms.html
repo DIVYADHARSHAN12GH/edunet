@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <center>
+        <img src="bd.png" width="8%" height="auto">
+        <h1>Blood Donation Form</h1>
+        <fieldset style="width:500px;">
+            <legend><b>Contact Information</b></legend>
+            <label>Fullname:</label>
+            <input type="text" name="username" placeholder="enter your name.">
+            <br>
+            <label>Mob No:</label>
+            <input type="text" name="mobilenumber" placeholder="enter your mobile number.">
+            <br>
+            <label>Address:</label>
+            <textarea name="address" rows="4" cols="30" placeholder="enter your address."></textarea>
+            <br>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="enter your email.">
+        </fieldset>
+        <br>
+        <label>Age:</label>
+        <input type="date"><br><br>
+        <label>Blood Group:</label>
+        <select>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+        <br><br>
+        <label>Last Donation Date:</label>
+        <input type="date"><br><br>
+        <label>Weight:</label>
+        <input type="text"><br><br>
+        <label><i><b>Have you donated previously?</b></i></label>
+        <input type="radio" name="donated" value="yes">Yes
+        <input type="radio" name="donated" value="no">No<br><br>
+        <label><b><i>Do you have any of the following disorder?</i></b></label>
+        <br><br>
+        <input type="checkbox" name="dis">Diabetes
+        <input type="checkbox" name="dis">Heart Disorder
+        <input type="checkbox" name="dis">Blood Pressure
+        <input type="checkbox" name="dis">Cancer
+        <input type="checkbox" name="dis">HIV/AIDS
+        <input type="checkbox" name="dis">Hepatitis B/C
+        <br><br>
+        <label><b><i>Have you taken any of these in past 72 hours?</i></b></label>
+        <br><br>
+        <input type="checkbox" name="med">Antibiotics
+        <input type="checkbox" name="med">Alcohol
+        <input type="checkbox" name="med">Pain Relievers
+        <input type="checkbox" name="med">Vaccination
+        <input type="checkbox" name="med">Other Medication
+        <br><br>
+        <label><b><i>Is there any history of blood transfusion or surgery?</i></b></label>
+        <input type="checkbox" name="sur">Major surgery
+        <input type="checkbox" name="sur">Minor surgery
+        <input type="checkbox" name="sur">Blood transfusion
+        <br><br>
+        <button type="submit">Submit</button>
+    </center>
+</body>
+</html>
